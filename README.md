@@ -1,3 +1,8 @@
+## Presentation
+
+[Trust-Aware Memory Intelligence System.pdf](https://github.com/user-attachments/files/28749568/Trust-Aware.Memory.Intelligence.System.pdf)
+
+---
 # 🧠 Trust-Aware Memory Intelligence System
 ### GenAI Hackathon — Multi-Agent Memory Pipeline
 
