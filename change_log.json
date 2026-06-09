@@ -1,0 +1,497 @@
+[
+  {
+    "claim_id": "C001",
+    "timestamp": "2024-01-01T10:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'TechCrunch' (reliability=0.85), confidence=0.850.",
+    "old_value": null,
+    "new_value": "$5M in 2021",
+    "confidence_delta": 0.85
+  },
+  {
+    "claim_id": "C010",
+    "timestamp": "2024-01-01T11:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.95), confidence=0.950.",
+    "old_value": null,
+    "new_value": "Jaime Lannister in Game of Thrones",
+    "confidence_delta": 0.95
+  },
+  {
+    "claim_id": "C002",
+    "timestamp": "2024-01-01T12:00:00+00:00",
+    "action": "MERGED",
+    "reason": "Corroborating claim from 'VentureBeat' (corroboration #2). Confidence 0.850 \u2192 0.881.",
+    "old_value": "$5M in 2021",
+    "new_value": "$5M in 2021",
+    "confidence_delta": 0.0315
+  },
+  {
+    "claim_id": "C011",
+    "timestamp": "2024-01-01T13:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.95), confidence=0.950.",
+    "old_value": null,
+    "new_value": "Fox Broadcasting Company",
+    "confidence_delta": 0.95
+  },
+  {
+    "claim_id": "C003",
+    "timestamp": "2024-01-01T14:00:00+00:00",
+    "action": "MERGED",
+    "reason": "Corroborating claim from 'AngelList' (corroboration #3). Confidence 0.881 \u2192 0.906.",
+    "old_value": "$5M in 2021",
+    "new_value": "five million dollars in 2021",
+    "confidence_delta": 0.025
+  },
+  {
+    "claim_id": "C014",
+    "timestamp": "2024-01-01T15:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.95), confidence=0.950.",
+    "old_value": null,
+    "new_value": "singer and television personality",
+    "confidence_delta": 0.95
+  },
+  {
+    "claim_id": "C017",
+    "timestamp": "2024-01-01T16:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.95), confidence=0.950.",
+    "old_value": null,
+    "new_value": "an American television spy thriller",
+    "confidence_delta": 0.95
+  },
+  {
+    "claim_id": "C018",
+    "timestamp": "2024-01-01T16:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.95), confidence=0.950.",
+    "old_value": null,
+    "new_value": "the Israeli series Prisoners of War",
+    "confidence_delta": 0.95
+  },
+  {
+    "claim_id": "C015",
+    "timestamp": "2024-01-01T17:00:00+00:00",
+    "action": "REJECTED",
+    "reason": "Adversarial REFUTES claim from low-trust source 'UnknownBlog' ignored.",
+    "old_value": "singer and television personality",
+    "new_value": "accountant",
+    "confidence_delta": 0.0
+  },
+  {
+    "claim_id": "C021",
+    "timestamp": "2024-01-01T18:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.95), confidence=0.950.",
+    "old_value": null,
+    "new_value": "content creator and YouTuber",
+    "confidence_delta": 0.95
+  },
+  {
+    "claim_id": "C004",
+    "timestamp": "2024-01-01T19:00:00+00:00",
+    "action": "DOWNGRADED",
+    "reason": "Equal-confidence conflict between '$5M in 2021' and '$8M in 2021'. Both confidence scores reduced. Memory is uncertain.",
+    "old_value": "$5M in 2021",
+    "new_value": "$8M in 2021",
+    "confidence_delta": -0.05
+  },
+  {
+    "claim_id": "C022",
+    "timestamp": "2024-01-01T20:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'SocialBlade' (reliability=0.70), confidence=0.700.",
+    "old_value": null,
+    "new_value": "10 million YouTube subscribers",
+    "confidence_delta": 0.7
+  },
+  {
+    "claim_id": "C016",
+    "timestamp": "2024-01-01T21:00:00+00:00",
+    "action": "DOWNGRADED",
+    "reason": "Equal-confidence conflict between 'singer and television personality' and 'television host'. Both confidence scores reduced. Memory is uncertain.",
+    "old_value": "singer and television personality",
+    "new_value": "television host",
+    "confidence_delta": -0.05
+  },
+  {
+    "claim_id": "C025",
+    "timestamp": "2024-01-01T22:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.25).",
+    "old_value": null,
+    "new_value": "limbo",
+    "confidence_delta": 0.025
+  },
+  {
+    "claim_id": "C019",
+    "timestamp": "2024-01-01T23:00:00+00:00",
+    "action": "REJECTED",
+    "reason": "Adversarial REFUTES claim from low-trust source 'FakeBlog' ignored.",
+    "old_value": "the Israeli series Prisoners of War",
+    "new_value": "a British series called The Grid",
+    "confidence_delta": 0.0
+  },
+  {
+    "claim_id": "C005",
+    "timestamp": "2024-01-02T00:00:00+00:00",
+    "action": "DOWNGRADED",
+    "reason": "Equal-confidence conflict between '$5M in 2021' and '$8M in 2022'. Both confidence scores reduced. Memory is uncertain.",
+    "old_value": "$5M in 2021",
+    "new_value": "$8M in 2022",
+    "confidence_delta": -0.05
+  },
+  {
+    "claim_id": "C026",
+    "timestamp": "2024-01-02T01:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.92), confidence=0.920.",
+    "old_value": null,
+    "new_value": "2006",
+    "confidence_delta": 0.92
+  },
+  {
+    "claim_id": "C027",
+    "timestamp": "2024-01-02T02:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.92), confidence=0.920.",
+    "old_value": null,
+    "new_value": "2011",
+    "confidence_delta": 0.92
+  },
+  {
+    "claim_id": "C006",
+    "timestamp": "2024-01-02T03:00:00+00:00",
+    "action": "REJECTED",
+    "reason": "Adversarial REFUTES claim from low-trust source 'UnknownBlog' ignored.",
+    "old_value": "$5M in 2021",
+    "new_value": "$50M in 2022",
+    "confidence_delta": 0.0
+  },
+  {
+    "claim_id": "C020",
+    "timestamp": "2024-01-02T04:00:00+00:00",
+    "action": "MERGED",
+    "reason": "Corroborating claim from 'Variety' (corroboration #2). Confidence 0.950 \u2192 0.982.",
+    "old_value": "the Israeli series Prisoners of War",
+    "new_value": "the Israeli series Prisoners of War",
+    "confidence_delta": 0.0315
+  },
+  {
+    "claim_id": "C012",
+    "timestamp": "2024-01-02T05:00:00+00:00",
+    "action": "REJECTED",
+    "reason": "Adversarial REFUTES claim from low-trust source 'RandomForum' ignored.",
+    "old_value": "Fox Broadcasting Company",
+    "new_value": "NBC",
+    "confidence_delta": 0.0
+  },
+  {
+    "claim_id": "C028",
+    "timestamp": "2024-01-02T06:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Wikipedia' (reliability=0.95), confidence=0.950.",
+    "old_value": null,
+    "new_value": "architecture, dance, sculpture, music, painting, poetry, literature, theatre, film, photography and graphic arts",
+    "confidence_delta": 0.95
+  },
+  {
+    "claim_id": "C007",
+    "timestamp": "2024-01-02T07:00:00+00:00",
+    "action": "UPDATED",
+    "reason": "Higher-confidence source 'Bloomberg' (conf=0.920) supersedes existing '$5M in 2021' (conf=0.806).",
+    "old_value": "$5M in 2021",
+    "new_value": "$8M in 2022",
+    "confidence_delta": 0.1135
+  },
+  {
+    "claim_id": "C029",
+    "timestamp": "2024-01-02T08:00:00+00:00",
+    "action": "REJECTED",
+    "reason": "Adversarial REFUTES claim from low-trust source 'StudentBlog' ignored.",
+    "old_value": "architecture, dance, sculpture, music, painting, poetry, literature, theatre, film, photography and graphic arts",
+    "new_value": "architecture and painting only",
+    "confidence_delta": 0.0
+  },
+  {
+    "claim_id": "C013",
+    "timestamp": "2024-01-02T10:00:00+00:00",
+    "action": "MERGED",
+    "reason": "Corroborating claim from 'IMDb' (corroboration #2). Confidence 0.950 \u2192 0.982.",
+    "old_value": "Fox Broadcasting Company",
+    "new_value": "Fox Broadcasting Company",
+    "confidence_delta": 0.0315
+  },
+  {
+    "claim_id": "C030",
+    "timestamp": "2024-01-02T11:00:00+00:00",
+    "action": "MERGED",
+    "reason": "Corroborating claim from 'Britannica' (corroboration #2). Confidence 0.950 \u2192 0.982.",
+    "old_value": "architecture, dance, sculpture, music, painting, poetry, literature, theatre, film, photography and graphic arts",
+    "new_value": "architecture, dance, sculpture, music, painting, poetry, literature, theatre, film, photography and graphic arts",
+    "confidence_delta": 0.0315
+  },
+  {
+    "claim_id": "C032",
+    "timestamp": "2024-01-02T12:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'Reuters' (reliability=0.80), confidence=0.800.",
+    "old_value": null,
+    "new_value": "2010",
+    "confidence_delta": 0.8
+  },
+  {
+    "claim_id": "C033",
+    "timestamp": "2024-01-02T13:00:00+00:00",
+    "action": "DOWNGRADED",
+    "reason": "Credible REFUTES from 'Bloomberg' (reliability=0.80). Existing confidence penalised by 0.064.",
+    "old_value": "2010",
+    "new_value": "2012",
+    "confidence_delta": -0.064
+  },
+  {
+    "claim_id": "C008",
+    "timestamp": "2024-01-02T15:00:00+00:00",
+    "action": "DOWNGRADED",
+    "reason": "Credible REFUTES from 'WSJ' (reliability=0.87). Existing confidence penalised by 0.070.",
+    "old_value": "$8M in 2022",
+    "new_value": "[none \u2014 funding attempt failed]",
+    "confidence_delta": -0.0696
+  },
+  {
+    "claim_id": "C034",
+    "timestamp": "2024-01-02T17:00:00+00:00",
+    "action": "MERGED",
+    "reason": "Corroborating claim from 'SEC Filing' (corroboration #2). Confidence 0.736 \u2192 0.767.",
+    "old_value": "2010",
+    "new_value": "2010",
+    "confidence_delta": 0.0315
+  },
+  {
+    "claim_id": "C035",
+    "timestamp": "2024-01-02T18:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.23).",
+    "old_value": null,
+    "new_value": "described as entity 1",
+    "confidence_delta": 0.023
+  },
+  {
+    "claim_id": "C036",
+    "timestamp": "2024-01-02T19:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.11).",
+    "old_value": null,
+    "new_value": "described as entity 2",
+    "confidence_delta": 0.011
+  },
+  {
+    "claim_id": "C009",
+    "timestamp": "2024-01-02T20:00:00+00:00",
+    "action": "MERGED",
+    "reason": "Corroborating claim from 'TechCrunch' (corroboration #2). Confidence 0.850 \u2192 0.882.",
+    "old_value": "$8M in 2022",
+    "new_value": "$8M in 2022",
+    "confidence_delta": 0.0315
+  },
+  {
+    "claim_id": "C037",
+    "timestamp": "2024-01-02T20:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.16).",
+    "old_value": null,
+    "new_value": "described as entity 3",
+    "confidence_delta": 0.016
+  },
+  {
+    "claim_id": "C038",
+    "timestamp": "2024-01-02T21:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.14).",
+    "old_value": null,
+    "new_value": "described as entity 4",
+    "confidence_delta": 0.014
+  },
+  {
+    "claim_id": "C039",
+    "timestamp": "2024-01-02T22:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.25).",
+    "old_value": null,
+    "new_value": "described as entity 5",
+    "confidence_delta": 0.025
+  },
+  {
+    "claim_id": "C040",
+    "timestamp": "2024-01-02T23:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.24).",
+    "old_value": null,
+    "new_value": "described as entity 6",
+    "confidence_delta": 0.024
+  },
+  {
+    "claim_id": "C041",
+    "timestamp": "2024-01-03T00:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.28).",
+    "old_value": null,
+    "new_value": "described as entity 7",
+    "confidence_delta": 0.028
+  },
+  {
+    "claim_id": "C023",
+    "timestamp": "2024-01-03T01:00:00+00:00",
+    "action": "DOWNGRADED",
+    "reason": "Equal-confidence conflict between '10 million YouTube subscribers' and '15 million YouTube subscribers'. Both confidence scores reduced. Memory is uncertain.",
+    "old_value": "10 million YouTube subscribers",
+    "new_value": "15 million YouTube subscribers",
+    "confidence_delta": -0.05
+  },
+  {
+    "claim_id": "C042",
+    "timestamp": "2024-01-03T01:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.12).",
+    "old_value": null,
+    "new_value": "described as entity 8",
+    "confidence_delta": 0.012
+  },
+  {
+    "claim_id": "C043",
+    "timestamp": "2024-01-03T02:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.18).",
+    "old_value": null,
+    "new_value": "described as entity 9",
+    "confidence_delta": 0.018
+  },
+  {
+    "claim_id": "C044",
+    "timestamp": "2024-01-03T03:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.11).",
+    "old_value": null,
+    "new_value": "described as entity 10",
+    "confidence_delta": 0.011
+  },
+  {
+    "claim_id": "C036",
+    "timestamp": "2026-06-09T07:56:01.172398+00:00",
+    "action": "FORGOTTEN",
+    "reason": "Memory overflow eviction. Entry confidence=0.011 below forget threshold (0.2).",
+    "old_value": "described as entity 2",
+    "new_value": null,
+    "confidence_delta": -0.011
+  },
+  {
+    "claim_id": "C045",
+    "timestamp": "2024-01-03T04:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.14).",
+    "old_value": null,
+    "new_value": "described as entity 11",
+    "confidence_delta": 0.014
+  },
+  {
+    "claim_id": "C044",
+    "timestamp": "2026-06-09T07:56:01.172560+00:00",
+    "action": "FORGOTTEN",
+    "reason": "Memory overflow eviction. Entry confidence=0.011 below forget threshold (0.2).",
+    "old_value": "described as entity 10",
+    "new_value": null,
+    "confidence_delta": -0.011
+  },
+  {
+    "claim_id": "C046",
+    "timestamp": "2024-01-03T05:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.20).",
+    "old_value": null,
+    "new_value": "described as entity 12",
+    "confidence_delta": 0.02
+  },
+  {
+    "claim_id": "C042",
+    "timestamp": "2026-06-09T07:56:01.172582+00:00",
+    "action": "FORGOTTEN",
+    "reason": "Memory overflow eviction. Entry confidence=0.012 below forget threshold (0.2).",
+    "old_value": "described as entity 8",
+    "new_value": null,
+    "confidence_delta": -0.012
+  },
+  {
+    "claim_id": "C024",
+    "timestamp": "2024-01-03T06:00:00+00:00",
+    "action": "DOWNGRADED",
+    "reason": "Credible REFUTES from 'OldBlog' (reliability=0.30). Existing confidence penalised by 0.024.",
+    "old_value": "10 million YouTube subscribers",
+    "new_value": "10 million YouTube subscribers",
+    "confidence_delta": -0.024
+  },
+  {
+    "claim_id": "C047",
+    "timestamp": "2024-01-03T06:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.11).",
+    "old_value": null,
+    "new_value": "described as entity 13",
+    "confidence_delta": 0.011
+  },
+  {
+    "claim_id": "C047",
+    "timestamp": "2026-06-09T07:56:01.172618+00:00",
+    "action": "FORGOTTEN",
+    "reason": "Memory overflow eviction. Entry confidence=0.011 below forget threshold (0.2).",
+    "old_value": "described as entity 13",
+    "new_value": null,
+    "confidence_delta": -0.011
+  },
+  {
+    "claim_id": "C048",
+    "timestamp": "2024-01-03T07:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.14).",
+    "old_value": null,
+    "new_value": "described as entity 14",
+    "confidence_delta": 0.014
+  },
+  {
+    "claim_id": "C038",
+    "timestamp": "2026-06-09T07:56:01.172635+00:00",
+    "action": "FORGOTTEN",
+    "reason": "Memory overflow eviction. Entry confidence=0.014 below forget threshold (0.2).",
+    "old_value": "described as entity 4",
+    "new_value": null,
+    "confidence_delta": -0.014
+  },
+  {
+    "claim_id": "C049",
+    "timestamp": "2024-01-03T08:00:00+00:00",
+    "action": "ACCEPTED",
+    "reason": "Low-trust or low-confidence claim accepted with low_confidence status (source_reliability=0.23).",
+    "old_value": null,
+    "new_value": "described as entity 15",
+    "confidence_delta": 0.023
+  },
+  {
+    "claim_id": "C045",
+    "timestamp": "2026-06-09T07:56:01.172652+00:00",
+    "action": "FORGOTTEN",
+    "reason": "Memory overflow eviction. Entry confidence=0.014 below forget threshold (0.2).",
+    "old_value": "described as entity 11",
+    "new_value": null,
+    "confidence_delta": -0.014
+  },
+  {
+    "claim_id": "C031",
+    "timestamp": "2025-01-01T00:00:01+00:00",
+    "action": "ACCEPTED",
+    "reason": "New fact accepted. Source 'AnonTip' (reliability=0.40), confidence=0.360.",
+    "old_value": null,
+    "new_value": "Startup B in 2023",
+    "confidence_delta": 0.36
+  }
+]

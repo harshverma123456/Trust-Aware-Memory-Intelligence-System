@@ -1,0 +1,883 @@
+{
+  "startup a||raised funding of": [
+    {
+      "claim_id": "C001",
+      "subject": "Startup A",
+      "predicate": "raised funding of",
+      "object": "$5M in 2021",
+      "confidence": 0.8065,
+      "status": "outdated",
+      "sources": [
+        "TechCrunch",
+        "VentureBeat",
+        "AngelList"
+      ],
+      "first_seen": "2024-01-01T10:00:00+00:00",
+      "last_updated": "2024-01-02T07:00:00+00:00",
+      "corroboration_count": 3,
+      "provenance": [
+        {
+          "claim_id": "C001",
+          "source_id": "TechCrunch",
+          "source_reliability": 0.85,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T10:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "subject": "Startup A",
+      "predicate": "raised funding of",
+      "object": "$8M in 2021",
+      "confidence": 0.85,
+      "status": "low_confidence",
+      "sources": [
+        "Forbes"
+      ],
+      "first_seen": "2024-01-01T19:00:00+00:00",
+      "last_updated": "2024-01-01T19:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C004",
+          "source_id": "Forbes",
+          "source_reliability": 0.9,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T19:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    },
+    {
+      "claim_id": "C005",
+      "subject": "Startup A",
+      "predicate": "raised funding of",
+      "object": "$8M in 2022",
+      "confidence": 0.83,
+      "status": "low_confidence",
+      "sources": [
+        "Reuters"
+      ],
+      "first_seen": "2024-01-02T00:00:00+00:00",
+      "last_updated": "2024-01-02T00:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C005",
+          "source_id": "Reuters",
+          "source_reliability": 0.88,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-02T00:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    },
+    {
+      "claim_id": "C007",
+      "subject": "Startup A",
+      "predicate": "raised funding of",
+      "object": "$8M in 2022",
+      "confidence": 0.8819,
+      "status": "active",
+      "sources": [
+        "Bloomberg",
+        "TechCrunch"
+      ],
+      "first_seen": "2024-01-02T07:00:00+00:00",
+      "last_updated": "2024-01-02T20:00:00+00:00",
+      "corroboration_count": 2,
+      "provenance": [
+        {
+          "claim_id": "C007",
+          "source_id": "Bloomberg",
+          "source_reliability": 0.92,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-02T07:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "nikolaj coster-waldau||is known for playing": [
+    {
+      "claim_id": "C010",
+      "subject": "Nikolaj Coster-Waldau",
+      "predicate": "is known for playing",
+      "object": "Jaime Lannister in Game of Thrones",
+      "confidence": 0.95,
+      "status": "active",
+      "sources": [
+        "Wikipedia"
+      ],
+      "first_seen": "2024-01-01T11:00:00+00:00",
+      "last_updated": "2024-01-01T11:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C010",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.95,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T11:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "nikolaj coster-waldau||worked with": [
+    {
+      "claim_id": "C011",
+      "subject": "Nikolaj Coster-Waldau",
+      "predicate": "worked with",
+      "object": "Fox Broadcasting Company",
+      "confidence": 0.9815,
+      "status": "active",
+      "sources": [
+        "Wikipedia",
+        "IMDb"
+      ],
+      "first_seen": "2024-01-01T13:00:00+00:00",
+      "last_updated": "2024-01-02T10:00:00+00:00",
+      "corroboration_count": 2,
+      "provenance": [
+        {
+          "claim_id": "C011",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.95,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T13:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "adrienne bailon||is a": [
+    {
+      "claim_id": "C014",
+      "subject": "Adrienne Bailon",
+      "predicate": "is a",
+      "object": "singer and television personality",
+      "confidence": 0.9,
+      "status": "active",
+      "sources": [
+        "Wikipedia"
+      ],
+      "first_seen": "2024-01-01T15:00:00+00:00",
+      "last_updated": "2024-01-01T21:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C014",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.95,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T15:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    },
+    {
+      "claim_id": "C016",
+      "subject": "Adrienne Bailon",
+      "predicate": "is a",
+      "object": "television host",
+      "confidence": 0.83,
+      "status": "low_confidence",
+      "sources": [
+        "Billboard"
+      ],
+      "first_seen": "2024-01-01T21:00:00+00:00",
+      "last_updated": "2024-01-01T21:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C016",
+          "source_id": "Billboard",
+          "source_reliability": 0.88,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T21:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "homeland||is": [
+    {
+      "claim_id": "C017",
+      "subject": "Homeland",
+      "predicate": "is",
+      "object": "an American television spy thriller",
+      "confidence": 0.95,
+      "status": "active",
+      "sources": [
+        "Wikipedia"
+      ],
+      "first_seen": "2024-01-01T16:00:00+00:00",
+      "last_updated": "2024-01-01T16:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C017",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.95,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T16:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "homeland||is based on": [
+    {
+      "claim_id": "C018",
+      "subject": "Homeland",
+      "predicate": "is based on",
+      "object": "the Israeli series Prisoners of War",
+      "confidence": 0.9815,
+      "status": "active",
+      "sources": [
+        "Wikipedia",
+        "Variety"
+      ],
+      "first_seen": "2024-01-01T16:00:00+00:00",
+      "last_updated": "2024-01-02T04:00:00+00:00",
+      "corroboration_count": 2,
+      "provenance": [
+        {
+          "claim_id": "C018",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.95,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T16:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "roman atwood||is a": [
+    {
+      "claim_id": "C021",
+      "subject": "Roman Atwood",
+      "predicate": "is a",
+      "object": "content creator and YouTuber",
+      "confidence": 0.95,
+      "status": "active",
+      "sources": [
+        "Wikipedia"
+      ],
+      "first_seen": "2024-01-01T18:00:00+00:00",
+      "last_updated": "2024-01-01T18:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C021",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.95,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T18:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "roman atwood||has": [
+    {
+      "claim_id": "C022",
+      "subject": "Roman Atwood",
+      "predicate": "has",
+      "object": "10 million YouTube subscribers",
+      "confidence": 0.626,
+      "status": "active",
+      "sources": [
+        "SocialBlade"
+      ],
+      "first_seen": "2024-01-01T20:00:00+00:00",
+      "last_updated": "2024-01-03T06:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C022",
+          "source_id": "SocialBlade",
+          "source_reliability": 0.7,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-01T20:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    },
+    {
+      "claim_id": "C023",
+      "subject": "Roman Atwood",
+      "predicate": "has",
+      "object": "15 million YouTube subscribers",
+      "confidence": 0.67,
+      "status": "low_confidence",
+      "sources": [
+        "SocialBlade"
+      ],
+      "first_seen": "2024-01-03T01:00:00+00:00",
+      "last_updated": "2024-01-03T01:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C023",
+          "source_id": "SocialBlade",
+          "source_reliability": 0.72,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-03T01:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "system of a down||briefly disbanded in": [
+    {
+      "claim_id": "C025",
+      "subject": "System of a Down",
+      "predicate": "briefly disbanded in",
+      "object": "limbo",
+      "confidence": 0.025,
+      "status": "low_confidence",
+      "sources": [
+        "Fan Site"
+      ],
+      "first_seen": "2024-01-01T22:00:00+00:00",
+      "last_updated": "2024-01-01T22:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C025",
+          "source_id": "Fan Site",
+          "source_reliability": 0.25,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-01T22:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "system of a down||went on hiatus in": [
+    {
+      "claim_id": "C026",
+      "subject": "System of a Down",
+      "predicate": "went on hiatus in",
+      "object": "2006",
+      "confidence": 0.92,
+      "status": "active",
+      "sources": [
+        "Wikipedia"
+      ],
+      "first_seen": "2024-01-02T01:00:00+00:00",
+      "last_updated": "2024-01-02T01:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C026",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.92,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-02T01:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "system of a down||reunited in": [
+    {
+      "claim_id": "C027",
+      "subject": "System of a Down",
+      "predicate": "reunited in",
+      "object": "2011",
+      "confidence": 0.92,
+      "status": "active",
+      "sources": [
+        "Wikipedia"
+      ],
+      "first_seen": "2024-01-02T02:00:00+00:00",
+      "last_updated": "2024-01-02T02:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C027",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.92,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-02T02:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "history of art||includes": [
+    {
+      "claim_id": "C028",
+      "subject": "History of art",
+      "predicate": "includes",
+      "object": "architecture, dance, sculpture, music, painting, poetry, literature, theatre, film, photography and graphic arts",
+      "confidence": 0.9815,
+      "status": "active",
+      "sources": [
+        "Wikipedia",
+        "Britannica"
+      ],
+      "first_seen": "2024-01-02T06:00:00+00:00",
+      "last_updated": "2024-01-02T11:00:00+00:00",
+      "corroboration_count": 2,
+      "provenance": [
+        {
+          "claim_id": "C028",
+          "source_id": "Wikipedia",
+          "source_reliability": 0.95,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-02T06:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "greentech corp||was founded in": [
+    {
+      "claim_id": "C032",
+      "subject": "GreenTech Corp",
+      "predicate": "was founded in",
+      "object": "2010",
+      "confidence": 0.7675,
+      "status": "active",
+      "sources": [
+        "Reuters",
+        "SEC Filing"
+      ],
+      "first_seen": "2024-01-02T12:00:00+00:00",
+      "last_updated": "2024-01-02T17:00:00+00:00",
+      "corroboration_count": 2,
+      "provenance": [
+        {
+          "claim_id": "C032",
+          "source_id": "Reuters",
+          "source_reliability": 0.8,
+          "label": "SUPPORTS",
+          "timestamp": "2024-01-02T12:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "brandx||is": [
+    {
+      "claim_id": "C035",
+      "subject": "BrandX",
+      "predicate": "is",
+      "object": "described as entity 1",
+      "confidence": 0.023,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-02T18:00:00+00:00",
+      "last_updated": "2024-01-02T18:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C035",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.23,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-02T18:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "brandy||is": [
+    {
+      "claim_id": "C036",
+      "subject": "BrandY",
+      "predicate": "is",
+      "object": "described as entity 2",
+      "confidence": 0.011,
+      "status": "forgotten",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-02T19:00:00+00:00",
+      "last_updated": "2026-06-09T07:56:01.172398+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C036",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.11,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-02T19:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "brandz||is": [
+    {
+      "claim_id": "C037",
+      "subject": "BrandZ",
+      "predicate": "is",
+      "object": "described as entity 3",
+      "confidence": 0.016,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-02T20:00:00+00:00",
+      "last_updated": "2024-01-02T20:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C037",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.16,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-02T20:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "producta||is": [
+    {
+      "claim_id": "C038",
+      "subject": "ProductA",
+      "predicate": "is",
+      "object": "described as entity 4",
+      "confidence": 0.014,
+      "status": "forgotten",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-02T21:00:00+00:00",
+      "last_updated": "2026-06-09T07:56:01.172635+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C038",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.14,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-02T21:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "productb||is": [
+    {
+      "claim_id": "C039",
+      "subject": "ProductB",
+      "predicate": "is",
+      "object": "described as entity 5",
+      "confidence": 0.025,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-02T22:00:00+00:00",
+      "last_updated": "2024-01-02T22:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C039",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.25,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-02T22:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "actorm||is": [
+    {
+      "claim_id": "C040",
+      "subject": "ActorM",
+      "predicate": "is",
+      "object": "described as entity 6",
+      "confidence": 0.024,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-02T23:00:00+00:00",
+      "last_updated": "2024-01-02T23:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C040",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.24,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-02T23:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "actorn||is": [
+    {
+      "claim_id": "C041",
+      "subject": "ActorN",
+      "predicate": "is",
+      "object": "described as entity 7",
+      "confidence": 0.028,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T00:00:00+00:00",
+      "last_updated": "2024-01-03T00:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C041",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.28,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T00:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "filmp||is": [
+    {
+      "claim_id": "C042",
+      "subject": "FilmP",
+      "predicate": "is",
+      "object": "described as entity 8",
+      "confidence": 0.012,
+      "status": "forgotten",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T01:00:00+00:00",
+      "last_updated": "2026-06-09T07:56:01.172582+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C042",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.12,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T01:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "filmq||is": [
+    {
+      "claim_id": "C043",
+      "subject": "FilmQ",
+      "predicate": "is",
+      "object": "described as entity 9",
+      "confidence": 0.018,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T02:00:00+00:00",
+      "last_updated": "2024-01-03T02:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C043",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.18,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T02:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "bandr||is": [
+    {
+      "claim_id": "C044",
+      "subject": "BandR",
+      "predicate": "is",
+      "object": "described as entity 10",
+      "confidence": 0.011,
+      "status": "forgotten",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T03:00:00+00:00",
+      "last_updated": "2026-06-09T07:56:01.172560+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C044",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.11,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T03:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "bands||is": [
+    {
+      "claim_id": "C045",
+      "subject": "BandS",
+      "predicate": "is",
+      "object": "described as entity 11",
+      "confidence": 0.014,
+      "status": "forgotten",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T04:00:00+00:00",
+      "last_updated": "2026-06-09T07:56:01.172652+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C045",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.14,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T04:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "cityt||is": [
+    {
+      "claim_id": "C046",
+      "subject": "CityT",
+      "predicate": "is",
+      "object": "described as entity 12",
+      "confidence": 0.02,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T05:00:00+00:00",
+      "last_updated": "2024-01-03T05:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C046",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.2,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T05:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "cityu||is": [
+    {
+      "claim_id": "C047",
+      "subject": "CityU",
+      "predicate": "is",
+      "object": "described as entity 13",
+      "confidence": 0.011,
+      "status": "forgotten",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T06:00:00+00:00",
+      "last_updated": "2026-06-09T07:56:01.172618+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C047",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.11,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T06:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "sportv||is": [
+    {
+      "claim_id": "C048",
+      "subject": "SportV",
+      "predicate": "is",
+      "object": "described as entity 14",
+      "confidence": 0.014,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T07:00:00+00:00",
+      "last_updated": "2024-01-03T07:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C048",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.14,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T07:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "sportw||is": [
+    {
+      "claim_id": "C049",
+      "subject": "SportW",
+      "predicate": "is",
+      "object": "described as entity 15",
+      "confidence": 0.023,
+      "status": "low_confidence",
+      "sources": [
+        "LowTrustBlog"
+      ],
+      "first_seen": "2024-01-03T08:00:00+00:00",
+      "last_updated": "2024-01-03T08:00:00+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C049",
+          "source_id": "LowTrustBlog",
+          "source_reliability": 0.23,
+          "label": "NOT ENOUGH INFO",
+          "timestamp": "2024-01-03T08:00:00+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ],
+  "startup a||acquired": [
+    {
+      "claim_id": "C031",
+      "subject": "Startup A",
+      "predicate": "acquired",
+      "object": "Startup B in 2023",
+      "confidence": 0.36,
+      "status": "active",
+      "sources": [
+        "AnonTip"
+      ],
+      "first_seen": "2025-01-01T00:00:01+00:00",
+      "last_updated": "2025-01-01T00:00:01+00:00",
+      "corroboration_count": 1,
+      "provenance": [
+        {
+          "claim_id": "C031",
+          "source_id": "AnonTip",
+          "source_reliability": 0.4,
+          "label": "SUPPORTS",
+          "timestamp": "2025-01-01T00:00:01+00:00",
+          "action": "INITIAL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+GenAI Hackathon
+Trust-Aware Memory Intelligence System
+
+Background
+Modern AI systems can generate answers, retrieve documents, and interact with users.
+However, most systems struggle with a harder problem: how should an AI system
+decide what to remember, what to update, what to distrust, and what to forget over
+time?
+In this challenge, participants will build a Trust-Aware Memory Intelligence System
+capable of ingesting noisy, conflicting, and evolving information streams and
+transforming them into a trusted, provenance-aware memory.
+This is not a chatbot challenge and not a traditional RAG application.
+The focus is on designing a memory system that continuously reasons about changing
+information and evolves its beliefs as new evidence arrives.
+
+Problem Statement
+Build a multi-agent memory intelligence system that ingests a stream of noisy,
+conflicting claims and converts them into a structured memory that improves over time.
+The system must continuously determine:
+What to store
+What to revise
+What to downgrade
+What to merge
+What to forget
+Every memory entry should maintain:
+Confidence score
+Source information
+Timestamp
+Current status
+Provenance history
+
+The system should be able to explain why it believes a fact at any point in time.
+
+Objective
+Design an agentic pipeline that transforms unreliable, time-ordered inputs into a trusted
+memory store.
+A strong solution should demonstrate how a single fact can:
+Be accepted
+Be revised
+Be downgraded
+Be rejected
+Be forgotten
+
+Core Capabilities to Build
+1. Required System Components
+Claim Extraction Agent
+Verification Agent
+Contradiction Detection Agent
+Memory Curator Agent
+2. Dataset Scenario
+Participants will receive a synthetic "Evolving Truth" dataset containing repeated
+entities, conflicting updates, duplicate claims, missing timestamps, adversarial
+statements, noisy information, and memory overflow scenarios.
+Example Stream:
+T1: Startup A raised $5M in 2021
+T2: Startup A raised $8M in 2021
+T3: Startup A raised $8M in 2022
+T4: Startup A failed to raise funding
+3. Expected Deliverables
+Memory Store
+Change Log
+Demonstration Flow
+
+4. Constraints
+Stateful memory is mandatory
+Pure prompting is insufficient
+Explicit memory logic is required
+Explainability matters
+5. Recommended Technology Stack
+LLMs: OpenAI, Anthropic, Open-source Models
+Frameworks: LangGraph, LangChain
+Storage: Neo4j, Redis, Valkey, PostgreSQL, JSON
+Backend: Python
+6. Edge Cases
+Same fact with different wording
+Repeated contradictions
+High-confidence incorrect claims
+Missing timestamps
+Equal-confidence conflicts
+Adversarial inputs
+Memory overflow situations
+
+Bonus Opportunities
+Teams can strengthen their solution with supporting enhancements such as richer
+provenance visualization, stronger contradiction handling, memory compression
+strategies, automated scoring, and demo-ready evaluation flows.
+
+Expected Outcome
+The final solution should demonstrate how agentic AI can transform unreliable, evolving
+inputs into a structured, trustworthy, and explainable memory system that tracks belief
+changes over time.
+The goal is not to build the smartest chatbot.
+The goal is to build a memory system that can answer:
+“Why do I believe this fact right now, and how has that belief changed over time?”
+
+The best solutions will demonstrate trust, provenance, memory evolution, and
+explainable reasoning under uncertainty.

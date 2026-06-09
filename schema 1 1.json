@@ -1,0 +1,35 @@
+{
+  "input_claim_schema": {
+    "id": "string \u2014 unique claim ID (C001..Cnnn)",
+    "timestamp": "ISO8601 string or null (null = missing timestamp edge case)",
+    "source_id": "string \u2014 name of the originating source",
+    "source_reliability": "float 0.0\u20131.0 \u2014 prior reliability of this source",
+    "verifiable": "enum: VERIFIABLE | NOT VERIFIABLE",
+    "label": "enum: SUPPORTS | REFUTES | NOT ENOUGH INFO",
+    "claim": "string \u2014 natural language claim",
+    "subject": "string \u2014 entity the claim is about",
+    "predicate": "string \u2014 relationship or property",
+    "object": "string or null \u2014 value asserted",
+    "notes": "string \u2014 dataset annotation (not available to agents at runtime)"
+  },
+  "memory_store_entry_schema": {
+    "subject": "string",
+    "predicate": "string",
+    "object": "string",
+    "confidence": "float 0.0\u20131.0",
+    "status": "enum: active | outdated | rejected | low_confidence",
+    "sources": "list of source_ids that support this value",
+    "first_seen": "ISO8601 timestamp",
+    "last_updated": "ISO8601 timestamp",
+    "corroboration_count": "int \u2014 number of independent sources agreeing"
+  },
+  "change_log_entry_schema": {
+    "claim_id": "string",
+    "timestamp": "ISO8601",
+    "action": "enum: ACCEPTED | UPDATED | DOWNGRADED | REJECTED | FORGOTTEN | MERGED",
+    "reason": "string \u2014 human-readable justification",
+    "old_value": "string or null",
+    "new_value": "string or null",
+    "confidence_delta": "float \u2014 change in confidence (positive or negative)"
+  }
+}
